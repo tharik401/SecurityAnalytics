@@ -12,8 +12,11 @@ body{
   margin: 0 auto;
 }
 header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   background-color: black;
-  opacity: 0.8;
+  /* opacity: 0.85; */
   color: white;
 }
 header .container{
@@ -42,11 +45,56 @@ header img{
   height: 1.5rem;
   margin: 0 1rem 0 0.5rem;
 }
+main{
+  position: relative;
+  top: 3rem;
+}
 #us {
+  opacity: 0.85;
   height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image:url("../images/backgroundblack.jpg");
+}
+#us .container{
+  display: flex;
 
+}
+.texttop{
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  /* font-weight: bold; */
+  font-family: georgia;
+  background-color: White;
+  padding: 2rem 3rem;
+}
+.texttop h4{
+  padding-top: 0.25rem;
+  font-size: 2rem;
+}
+#sobre .container{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.title{
+  color: mediumaquamarine;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 20rem;
+  text-align: center;
+  border-bottom: 0.1rem solid black;
+  padding:1rem;
+}
+.text{
+  color: dimgrey;
+  font-size: 1.10rem;
+  font-weight: bold;
+  text-align: center;
+  width: 40rem;
+  padding: 1rem;
 }
