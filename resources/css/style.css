@@ -20,7 +20,7 @@ header{
   color: white;
 }
 header .container{
-  color: mediumaquamarine;
+  color: white;
   display: flex;
   align-items: center;
   padding: 0.66rem 0;
@@ -38,7 +38,7 @@ header nav{
 }
 a{
   text-decoration: none;
-  color: mediumaquamarine;
+  color: #66b8c3;
 }
 
 header img{
@@ -50,7 +50,7 @@ main{
   top: 3rem;
 }
 #us {
-  opacity: 0.85;
+  opacity: 0.90;
   height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,8 +74,12 @@ main{
   padding-top: 0.25rem;
   font-size: 2rem;
 }
+#sobre{
+  display: flex;
+  justify-content: center;
+}
 #sobre .container{
-  margin-top: 4rem;
+  margin: 4rem 0rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,10 +95,48 @@ main{
   padding:1rem;
 }
 .text{
-  color: dimgrey;
+  font-family: georgia;
+  color: #777777;
   font-size: 1.10rem;
-  font-weight: bold;
   text-align: center;
   width: 40rem;
   padding: 1rem;
+}
+#more{
+  display: flex;
+
+}
+#more .container{
+  display: inline-flex;
+  width: 100%;
+}
+#firstc{
+  width: 40%;
+  padding: 0% 3% 5% 3%;
+}
+#secondc{
+  width: 50%;
+}
+.divisory{
+  padding: 1.1rem 0;
+  margin-bottom: 1.1rem;
+  border-bottom: 0.05rem dashed dimgrey;
+}
+.titlebox{
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: mediumaquamarine;
+}
+.box p{
+  padding: 0.25rem 0;
+  color: #777777;
+}
+.imgsecondc{
+  height: 20rem;
+  opacity: 0.9;
+  background-position: center;
+  background-image: url("../images/datasecurity.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
